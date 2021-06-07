@@ -1,6 +1,6 @@
 import pandas as pd
 # read csv file
-df = pd.read_csv('../cities.csv')
+df = pd.read_csv('Resources/cities.csv')
 # dave the df to a file
 df.to_html('cities.html',index=False)
 # assign to string
