@@ -7,46 +7,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <!--Navigation Bar-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navigation Bar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home
-              <span class="visually-hidden">(current)</span>
-            </a>
-          </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Visualizations</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Temperature</a>
-              <a class="dropdown-item" href="#">Humidity</a>
-              <a class="dropdown-item" href="#">Clouds</a>
-              <a class="dropdown-item" href="#">Wind</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Comparison</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Data</a>
-          </li>
-          
-      </ul>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navigation Bar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Visualizations</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Temperature</a>
+                  <a class="dropdown-item" href="#">Humidity</a>
+                  <a class="dropdown-item" href="#">Clouds</a>
+                  <a class="dropdown-item" href="#">Wind</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Data</a>
+              </li>
+              
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Container that shows "Summary: Latitude vs. X" and "Visualizations"-->
+    <div class="container content">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="col-md-12"?>
+            <h3>Summary: Latitude vs. X</h3>
+            <hr>
+            <div class="thumbnail">
+              <img class="img-thumbnail float-left" src="Resources/assets/images/Fig1.png " width="50%" alt="temperature">
+            </div>
+            <p>Welcome, the purpose of this project was to analyze weather conditions and changes in relation to the Earth's equator. For this analysis, data was pulled from OpenWeatherMap API to create a dataset from 500 cities</p>
+
+            <p>Matplotlib was leveraged once the dataset was created to analyze various weather coniditions based on the latitude of the city. Weather conditions include Temperature, Cloud, Wind, and Humidity. This website visaulizations on the sources data as well as an explanation of the analysis. </p>
+          </div>          
+        </div>
+        <div class="col-md-4">
+          <div class="col-md-12">
+            <h3>Visualizations</h3>
+            
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
 
-<!--Container that shows "Summary: Latitude vs. X" and "Visualizations"-->
-
-
-
-
+</body>
 
 
 
