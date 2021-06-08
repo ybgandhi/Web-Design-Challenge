@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Navigation Bar-->
+
+<body>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navigation Bar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Visualizations</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="Temperature.html">Temperature</a>
+                      <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="Cloud.html">Clouds</a>
+                      <a class="dropdown-item" href="Wind.html">Wind</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Data</a>
+                  </li>
+                  
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+    <div class="container content bg-white">
+        <h3>Comparison: Latitude vs X</h3>
+        <hr>
+        <p>Click any plot to get indept analysis</p>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Max Teperature</h3>
+                <a href="Temperature.html"><img width="100%" src="Resources/assets/images/Fig1.png"></a>   
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Humidity</h3>
+                <a href="Humidity.html"><img width="100%" src="Resources/assets/images/Fig2.png"></a>  
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Cloudiness </h3>
+                <a href="Cloud.html"><img width="100%" src="Resources/assets/images/Fig3.png"></a>   
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-center">vs. Wind Speed</h3>
+                <a href="Wind.html"><img width="100%" src="Resources/assets/images/Fig4.png"></a>  
+            </div>
+        </div>   
+    </div>
+
+
+</body>
+</html>
