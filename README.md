@@ -4,6 +4,12 @@ Use HTML, CSS and BOOTSTRAP to create a web page that displays visualizations an
 
 ## Web Visualization Dashboard
 
+Create a visualization dashboard website using climate visualization plots.
+
+Create individual pages for each plot and navigate between them. These pages contain the visualizations and their corresponding explanations.
+
+Landing page that has a comparison of all of the plots, and another page where the data displays as an html table.
+
 * A [landing page](#landing-page) containing:
   * An explanation of the project.
   * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
